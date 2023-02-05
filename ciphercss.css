@@ -61,11 +61,11 @@ body,html {
     float: right;
     width: 40%;
     text-align: center;
-    border-style: groove;
+    border-style: solid;
     border-width: 10px 10px;
     word-wrap: break-word;
     position: sticky;
-    background-color: black;
+    background-color:rgba(0, 0, 0, 0.705);
 }
 .kryptotietoteksti {
     font-size: 10;
@@ -76,11 +76,11 @@ body,html {
     float: left;
     width: 40%; /*Tällä saadaan divi pysymään paikallaan skaalan vaihtumistesta riippumatta*/
     text-align: center;
-    border-style: groove;
+    border-style: solid;
     border-width: 10px 10px;
     word-wrap: break-word;
     position: sticky; /*Pitää divin paikallaan*/
-    background-color: black;
+    background-color:rgba(0, 0, 0, 0.705);
 }
 /* NÄMÄ OVAT VANHOJA DIV MÄÄRITELMIÄ
 .whatiscaesarcipher {
@@ -124,10 +124,10 @@ body,html {
     width: 40%;
     font-size: 18;
     text-align: center;
-    border-style: groove;
+    border-style: solid;
     border-width: 10px 10px;
     /*position:sticky; tätä ei oltu määritelty wrap div esimerkissä*/
-    background-color: black;
+    background-color:rgba(0, 0, 0, 0.705);
 }
 .whatiscaesarciphertext {
     font-size: 15;
@@ -140,10 +140,10 @@ body,html {
     width: 40%;
     font-size: 18;
     text-align: center;
-    border-style: groove;
+    border-style: solid;
     border-width: 10px 10px;
     /*position:relative; tätä ei ollut myöskään esimerkissä määritelty*/
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.705);
 }
 .encryptdivtext {
     font-size: 15;
@@ -156,10 +156,10 @@ body,html {
     width: 40%;
     font-size: 18;
     text-align: center;
-    border-style: groove;
+    border-style: solid;
     border-width: 10px 10px;
     /*position:sticky;*/
-    background-color: black;
+    background-color:rgba(0, 0, 0, 0.705);
 }
 .decryptdivtext {
     font-size: 15;
@@ -171,63 +171,9 @@ body,html {
     right:22%;
     width: 30%;
     text-align: center;
-    border-style: groove;
+    border-style: solid;
     border-width: 10px 10px;
     word-wrap: break-word;
     position: sticky;
-    background-color: black;
+    background-color:rgba(0, 0, 0, 0.705);
 }
-/*.encryptcharacters {
-
-}
-.decryptcharacters {
-
-}*/
-/*.whatiscaesarcipher { KOMMENTISSA KOKEILUN VUOKSI, MIKÄLI WRAP DIV TOIMII PAREMMIN, TEEN UUDET DIV MÄÄRITTELYT YLÄPUOLELLE KAIKILLE ALLA OLEVILLE DIVEILLE
-    margin: auto;
-    float:left;
-    width: 30%;
-    font-size: 18;
-    text-align: center;
-    border-style: groove;
-    border-width: 10px 10px;
-    position:sticky;
-    background-color: black;
-}
-.whatiscaesarciphertext {
-    font-size: 15;
-    font-family:'Times New Roman', Times, serif;
-    word-wrap: break-word;
-}
-.encryptdiv {
-    display:inline-block;
-    margin: auto;
-    width: 30%;
-    font-size: 18;
-    text-align: center;
-    border-style: groove;
-    border-width: 10px 10px;
-    position:relative;
-    background-color: black;
-}
-.encryptdivtext {
-    font-size: 15;
-    font-family:'Times New Roman', Times, serif;
-    word-wrap: break-word;
-}
-.decryptdiv {
-    vertical-align:top;
-    float:inherit;
-    width: 30%;
-    font-size: 18;
-    text-align: center;
-    border-style: groove;
-    border-width: 10px 10px;
-    position:sticky;
-    background-color: black;
-}
-.decryptdivtext {
-    font-size: 15;
-    font-family:'Times New Roman', Times, serif;
-    word-wrap: break-word;
-}*/

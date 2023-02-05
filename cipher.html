@@ -1,0 +1,144 @@
+<html>
+<html lang="en">
+<head>
+    <title>Caesar Cipher</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="Caesar cipherjs.js"></script>
+    <link rel="stylesheet" href="Caesar ciphercss.css">
+</head>
+<body>
+
+    <div class="hero-image">
+        <div class="hero-text">
+            <h1>Caesar Cipher</h1>  
+        </div>        
+    </div>
+
+    <div class="Otsikko1">
+        <div class="Otsikko1H2element">
+            <h2>This webpage is about cryptography</h2>
+        </div>
+    </div>
+
+    <br>
+
+    <div class="kryptoinfo">
+        <h1>Common knowledge</h1>
+    </div>
+
+    <br>
+
+    <div class="missatarvitaan">
+        <div class="missatarvitaanteksti">
+            <p>Where do we need crypting?</p>
+            <p>As long as we have had any kind of writing system, 
+            we also must have had a way to send a message to someone which can only the receiver understand.
+            Due to this we have had to create some kind of a secret "language" and a certain algorithm to decrypt the crypted message.</p>
+        </div>
+    </div>
+    
+    <div class="kryptotieto">
+        <div class="krpytotietoteksti">
+            <p>What is cryptography?</p>
+            <p>Cryptography is a study of secure communication systems. It is generally about
+            constructing and analyzing protocols that prevent third parties from reading
+            private messages. Modern cryptography is very much based on mathematical theory.
+            
+        </p>
+        </div>
+    </div>
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+    <div class="introductionh1">
+    <h1>You can encrypt and decrypt your own message here with Caesar Cipher -technique</h1>
+    </div>
+
+    <br>
+
+    <div class="wrap1">
+
+        <div class="resultdiv">
+            <!--<h1>RESULT</h1>-->
+            <p>Your result will be printed here</p>
+            <p id="result"></p>
+        </div>
+
+        <div class="whatiscaesarcipher">
+            <div class="whatiscaesarciphertext">
+                <p>What is Caesar Cipher?</p>
+                <p>Caesar Cipher is a very old and simple crypting technique which is named by the Roman emperor Caesar.
+                testsssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+                sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+
+                </p>
+            </div>
+        </div>
+
+        <div class="encryptdiv">
+            <div class="encryptdivtext">
+            <p>You can encrypt your text here</p>
+            <p>Use only english alphabet</p>
+            <input type="text" id="encrypttext" placeholder="..." size="15">
+            <p>How many characters to be shifted?</p>
+            <p>Max. 26</p>
+            <input type="number" min=1 max=26 id="encryptcharacters" placeholder="..." size="15">
+            <p>When you are ready, press submit below:</p>
+            <input type="button" value="Submit" onclick="cipher()">
+            </div>
+        </div>
+        
+        <div class="decryptdiv">
+            <div class="decryptdivtext">
+            <p>You can decrypt your text here</p>
+            <p>Use only english alphabet</p>
+            <input type="text" id="decrypttext" placeholder="..." size="15">
+            <p>How many characters are shifted?</p>
+            <p>Max. -26</p>
+            <input type="number" min=-27 max=-1 id="decryptcharacters" placeholder="..." size="15">
+            <p>When you are ready, press submit below:</p>
+            <input type="button" value="Submit" onclick="decipher()">
+            </div>
+        </div>
+
+    </div>
+
+    <!--Kommentissa, mikäli wrap div idea toimii paremmin-->
+    <!--<div class="whatiscaesarcipher">
+        <div class="whatiscaesarciphertext">
+            <p>What is Caesar Cipher?</p>
+            <p>Caesar Cipher is a very old and simple crypting technique which is named by the Roman emperor Caesar.
+            
+            </p>
+        </div>
+    </div>
+
+    <div class="encryptdiv">
+        <div class="encryptdivtext">
+        <p>You can encrypt your text here</p>
+        <input type="text" id="encrypttext" value="..." size="15">
+        </div>
+    </div>
+
+    <div class="decryptdiv">
+        <div class="decryptdivtext">
+        <p>You can decrypt your text here</p>
+        <input type="text" id="decrypttext" value="..." size="15">
+        </div>
+    </div>-->
+
+    <!--alla vanha-->
+
+    <!--<div class="whatiscaesarcipher">
+        <div class="whatiscaesarciphertext">
+            <p>What is Caesar Cipher?</p>
+        </div>
+    </div>
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+    <h3>You can encrypt and decrypt your own message here with Caesar Cipher -technique</h3>-->
+    
+</body>
+</html>

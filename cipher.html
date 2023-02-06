@@ -60,8 +60,10 @@
     <div class="wrap1">
 
         <div class="resultdiv">
-            
+
             <p>Your result will be printed here</p>
+            <p>If you inserted space, it may display any letter</p>
+            <p>in the place for space depending how much characters are shifted</p>
             <p id="result"></p>
 
         </div>
@@ -84,14 +86,14 @@
                 <p>You can encrypt your text here</p>
                 <p>Use only english alphabet</p>
 
-            <input type="text" id="encrypttext" placeholder="..." size="15">
-                <p>How many characters to be shifted?</p>
-                <p>Max. 26</p>
+            <input type="text" id="entext" placeholder="..." size="15">
+                <p>How much to be shifted?</p>
+                <p>Max. 25</p>
 
-            <input type="number" min=1 max=26 id="encryptcharacters" placeholder="..." size="15">
+            <input type="number" min=1 max=25 id="enchar" placeholder="..." size="15">
                 <p>When you are ready, press submit below:</p>
 
-            <input type="button" value="Submit" onclick="cipher()">
+            <input type="button" value="Submit" onclick="Cipher()">
 
             </div>
         </div>
@@ -101,14 +103,14 @@
                 <p>You can decrypt your text here</p>
                 <p>Use only english alphabet</p>
 
-            <input type="text" id="decrypttext" placeholder="..." size="15">
-                <p>How many characters are shifted?</p>
-                <p>Max. -26</p>
+            <input type="text" id="detext" placeholder="..." size="15">
+                <p>How much are shifted?</p>
+                <p>Max. 25</p>
 
-            <input type="number" min=-27 max=-1 id="decryptcharacters" placeholder="..." size="15">
+            <input type="number" min=1 max=25 id="dechar" placeholder="..." size="15">
                 <p>When you are ready, press submit below:</p>
 
-            <input type="button" value="Submit" onclick="decipher()">
+            <input type="button" value="Submit" onclick="Decipher()">
 
             </div>
         </div>

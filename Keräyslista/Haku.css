@@ -1,0 +1,100 @@
+h3 {
+    color:white;
+    text-align:center;
+    font-size:18px;
+}
+h1 {
+    color:white;
+    font-family: Arial;
+}
+p {
+    color:white;
+}
+.Otsikko1{
+    text-align:center;
+    border-style:groove;
+    border-width:20px 20px;
+    background-color:darkslategray
+}
+.Otsikko1H2element{
+    font-size:30px;
+    font-family:"Times new roman";
+    color:white;
+    text-align:center;
+}
+body,html {
+    height: 100%;
+    margin: 0;
+    background-image: url("Terminaali.jpg"); /* Kuva on royalty free -kuva pixabaysta*/
+    padding-bottom: 150px;
+}
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Logokonsepti.png");
+    height: 30%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 40;
+}
+.Kirjautuminen {
+    margin: auto;
+    /*width: 600px;*/
+    width:45%;
+    font-size: 18;
+    text-align: center;
+    border-style: groove;
+    border-width: 10px 10px;
+    background-color:darkslategrey;
+}
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 26px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+input[type=text] {
+  width: 160px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  word-wrap: break-word;
+  white-space: normal;
+}
+
+input[type=password] {
+  width: 160px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  word-wrap: break-word;
+  white-space: normal;
+}
+
+.buttonback {
+    background-color:cadetblue;
+    border: none;
+    color: white;
+    padding: 10px 26px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
